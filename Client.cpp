@@ -24,7 +24,7 @@ int main() {
                   // Copy the text file into string named   //
                   // finalREsult.                           //
                   //========================================//
-                  getline(file, finalResult, '\n');
+                  getline(file, finalResult, '\0');
                   
                   //====================//
                   // Close to the file. //
